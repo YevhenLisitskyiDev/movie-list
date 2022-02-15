@@ -29,7 +29,7 @@ const GoalInput = ({ visible, onAddGoal, onCancel }) => {
           value={enteredGoal}
         />
 
-        <View style={styles.buttonContainer}>
+        <View style={styles.buttonContainer}>    
           <View style={styles.button}>
             <Button
               title="Cancel"
